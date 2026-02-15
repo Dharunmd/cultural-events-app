@@ -25,7 +25,7 @@ function App() {
   return (
     <AuthProvider>
       <EventProvider>
-        <Router>
+        <Router basename="/cultural-events-app">
           <div className="app">
             <Header />
             <main className="main-content">
